@@ -1,0 +1,47 @@
+/* mengatur body secara keseluruhan*/
+body{
+    padding: 0;
+    margin: 0;
+}
+/* mengatur tampilan aplikasi */
+#app {
+    background:rgb(255, 243, 200);
+    color: brown;
+    font-family: cursive;
+    width: 320px;
+    padding: 10px;
+    box-sizing: border-box
+}
+/* mengatur border di bawah "Responden Olah Raga Populer" */
+#app > b {
+    border-bottom: 1px solid yellow;
+}
+/* pengaturan editor */
+#editor {
+    margin-top: 5px;
+    display: flex;
+}
+#editor > b {
+    flex: 1;
+    font-weight: normal;
+}
+/* pengaturan nilai */
+#nilai > input {
+    width: 4em;
+    text-align: center;
+    background: none;
+    border: 0;
+    color: brown;
+    font-weight: bold;
+}
+#nilai > button {
+    border-radius: 10px;
+    border: 1px green solid;
+    background: none;
+    color: green;
+}
+#nilai {
+    border: 1px green solid;
+    margin: 2px;
+    padding: 2px;
+}
